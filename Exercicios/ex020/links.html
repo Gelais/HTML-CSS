@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /*
+           # = id
+           .class
+           : = pseudoclass
+           :: = pseudo-element
+           > = clildren
+
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: burlywood;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+           color: black ;
+           text-decoration: underline;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:active {
+            color: blue;
+        }
+
+        a::after{
+            content: '[Link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: red;
+        }
+
+       
+
+
+
+      
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://app.powerbi.com/view?r=eyJrIjoiMDM0ZjBjNzctNzAwNi00Nzg5LTk1YjctNGI1MDc1MjcwMDY3IiwidCI6Ijk5YTI4ZjRmLTk3ZWMtNDA1Ny1hZTg0LTUxYTM1ZDRjN2UyNiJ9" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://app.powerbi.com/view?r=eyJrIjoiZDdlNDNkYjgtZDU2OC00YzJlLTk5MWYtOTAxZGU2NTZjNTdmIiwidCI6Ijk5YTI4ZjRmLTk3ZWMtNDA1Ny1hZTg0LTUxYTM1ZDRjN2UyNiJ9">Canal do YouTube</a></li>
+        <li><a href="https://docs.google.com/forms/d/1FDiNBpRzBYV2kfsOyMZG3-THkaJ2rL5whMQbiAhV4WY/edit">Site do Cursoemvideo</a></li>
+    </ul>
+</body>
+</html>
